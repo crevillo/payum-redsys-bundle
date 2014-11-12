@@ -1,0 +1,56 @@
+{
+    "name": "crevillo/payum-redsys-bundle",
+    "type": "symfony-bundle",
+    "description": "Redsys integration with payum",
+    "keywords": [
+        "symfony",
+        "payment",
+        "redsys",
+    ],
+    "homepage": "http://payum.org",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carlos Revillo",
+            "email": "crevillo@gmail.com"
+        },
+        {
+            "name":     "Payum project",
+            "homepage": "http://payum.org/"
+        },
+        {
+            "name":     "Community contributions",
+            "homepage": "https://github.com/Payum/PayumBundle/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "payum/core": "0.13.*@dev",
+        "symfony/framework-bundle": "~2.3",
+        "symfony/twig-bundle": "~2.3",
+        "symfony/form": "~2.3",
+        "symfony/validator": "~2.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "doctrine/orm": "*",
+        "payum/payum": "0.13.*@dev",
+        "symfony/browser-kit": "~2.3",
+        "symfony/class-loader": "~2.3",
+        "omnipay/dummy": "~2.0",
+        "omnipay/stripe": "~2.0",
+        "omnipay/paypal": "~2.0"
+    },
+    "autoload": {
+        "psr-0": { "Crevillo\\Bundle\\PayumRedsysBundle": "" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.13-dev"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "target-dir": "Crevillo/Bundle/PayumRedsysBundle"
+}
