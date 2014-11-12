@@ -8,7 +8,7 @@
 
 namespace Crevillo\Bundle\PayumRedsysBundle;
 
-use Crevillo\Bundle\PayumRedsysBundle\DependencyInjection\Factory\Payment\RedsysPaymentFactory;
+use Crevillo\Payum\Redsys\Bridge\Symfony\RedsysPaymentFactory;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 
